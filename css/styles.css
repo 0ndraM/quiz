@@ -1,0 +1,66 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+  }
+  
+  .flex-container {
+  
+      max-width: 700px;
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      background-color: white;
+    }
+    
+    .flex-head {
+      text-align: center;
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    
+    .flex-nav {
+      text-align: right;
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left:  10px;
+    }
+  
+    .flex-section {    
+            text-align: justify;
+      background-color:white;;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+      .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+  }
+  #timer-container {text-align:right}
+    
+    .flex-section > div {
+      background-color: #f1f1f1f5; 
+      margin-top: 10px;
+      padding: 10px;
+    }
+    #start-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+  }
+  
+  #start-button {
+      font-size: 24px;
+      padding: 10px 20px;
+  }
+    .flex-foot {
+      text-align: left;
+      background-color: white;
+      margin:10px;
+      padding: 10px;
+  }
